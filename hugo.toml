@@ -1,0 +1,20 @@
+baseurl = "/"
+title = "My Studying Blog"
+
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "cool headline"
+    description = "I host some of my public notes here..."
+    github = "https://github.com/XXX"
+    twitter = "https://twitter.com/XXX"
+    email = "XXX@example.com"
+    opengraph = true
+    dateFormat = "Mon, Jan 2, 2006"
+
+[Permalinks]
+    post = "/:contentbasename/"
+
+# baseURL = 'https://example.org/'
+# locale = 'en-us'
+# title = 'My New Hugo Project'
