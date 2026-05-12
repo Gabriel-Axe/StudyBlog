@@ -1,6 +1,9 @@
 baseurl = "/"
 title = "My Studying Blog"
 
+[[module.imports]]
+    path = "github.com/CaiJimmy/hugo-theme-stack/v4"
+
 [Params]
     mainSections = ["post"]
     intro = true
